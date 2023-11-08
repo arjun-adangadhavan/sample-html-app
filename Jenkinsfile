@@ -1,4 +1,4 @@
-node{
+node("slave"){
     stage("clone"){
         git branch: 'main', url: 'https://github.com/arjun-adangadhavan/sample-html-app.git'
         sh "ls"
